@@ -1,6 +1,0 @@
-{
-  "buildCommand": "cd get-saas && npm run build",
-  "devCommand": "cd get-saas && npm run dev",
-  "installCommand": "cd get-saas && npm install",
-  "outputDirectory": "get-saas/.next"
-}
