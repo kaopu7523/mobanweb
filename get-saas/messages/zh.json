@@ -1,0 +1,722 @@
+{
+  "metadata": {
+    "title": "Get SaaS - 专为出海设计的现代化SaaS模版",
+    "description": "Get SaaS是专为出海设计的现代化SaaS模版,集成完整的用户认证、支付系统、多语言支持、SEO优化等功能。基于Next.js构建,帮助开发者快速启动SaaS产品。",
+    "terms": {
+      "title": "服务条款 - Get SaaS",
+      "description": "查看Get SaaS SaaS模版的使用条款,了解模版使用规则、许可协议和用户权利责任。"
+    },
+    "privacy": {
+      "title": "隐私政策 - Get SaaS",
+      "description": "了解Get SaaS如何处理用户数据和隐私保护,确保您的个人信息安全。"
+    },
+    "cookies": {
+      "title": "Cookie政策 - Get SaaS",
+      "description": "了解Get SaaS如何使用Cookie和相关技术来优化用户体验和网站性能。"
+    }
+  },
+  "demoBanner": {
+    "prefix": "这是",
+    "productName": "Get SaaS",
+    "suffix": "演示站点,体验完整功能后",
+    "cta": "立即购买完整版"
+  },
+  "navbar": {
+    "home": "首页",
+    "features": "功能特性",
+    "pricing": "定价方案",
+    "blog": "技术博客",
+    "signUp": "立即注册",
+    "signIn": "登录",
+    "profile": "个人中心",
+    "accountSettings": "账户设置",
+    "signOut": "退出登录"
+  },
+  "hero": {
+    "title": "专为出海设计的现代化SaaS模版\n快速启动您的全球化SaaS产品",
+    "description": "Get SaaS集成完整的用户认证、支付系统、多语言支持、SEO优化等功能。基于Next.js和现代化技术栈构建,让您专注于业务逻辑,快速推向全球市场。",
+    "badge": "🚀 现代化SaaS解决方案",
+    "features": {
+      "readyToUse": "开箱即用",
+      "multiScenario": "全球化支持",
+      "professionalOutput": "企业级架构"
+    }
+  },
+
+  "features": {
+    "title": "现代化SaaS模版,为出海产品提供完整解决方案",
+    "liveGeneration": "快速部署",
+    "contentSummaryAgent": {
+      "title": "用户认证系统",
+      "description": "集成完整的用户注册、登录、密码重置功能,支持多种认证方式,确保用户数据安全。"
+    },
+    "podcastAgent": {
+      "title": "支付集成",
+      "description": "内置Stripe支付系统,支持订阅计费、一次性付款等多种支付模式,助您快速实现商业化。"
+    }
+  },
+  "pricing": {
+    "title": "选择适合您的SaaS模版方案",
+    "recommended": "推荐",
+    "pointsTitle": "积分购买套餐",
+    "pointsSubtitle": "一次购买,永久有效",
+    "free": {
+      "name": "开源版",
+      "price": "$0",
+      "description": "适合个人开发者和小型项目",
+      "features": {
+        "template": "完整SaaS模版源码",
+        "auth": "基础用户认证系统",
+        "support": "社区技术支持"
+      },
+      "cta": "免费下载"
+    },
+    "pro": {
+      "name": "专业版",
+      "price": "$40",
+      "originalPrice": "$80",
+      "discountPercent": "50",
+      "savings": "$40",
+      "discountBadge": "限时50%折扣",
+      "description": "适合初创公司和中小企业",
+      "features": {
+        "template": "完整SaaS模版 + 高级功能",
+        "payment": "Stripe支付集成",
+        "support": "1年技术支持"
+      },
+      "cta": "立即购买"
+    },
+    "discount": {
+      "was": "原价",
+      "now": "现价",
+      "save": "立省",
+      "off": "折扣"
+    },
+    "enterprise": {
+      "name": "企业版",
+      "price": "联系我们",
+      "description": "适合大型企业和定制化需求",
+      "features": {
+        "custom": "定制化开发服务",
+        "deployment": "私有化部署支持",
+        "support": "7×24小时技术支持",
+        "training": "团队培训与咨询"
+      },
+      "cta": "咨询方案"
+    },
+    "starter": {
+      "name": "入门套餐",
+      "price": "$10",
+      "points": "5,000",
+      "description": "适合新用户试用",
+      "features": {
+        "points": "5,000 积分",
+        "permanent": "永久有效",
+        "priority": "标准支持"
+      },
+      "cta": "立即购买"
+    },
+    "popular": {
+      "name": "热门套餐",
+      "price": "$20",
+      "points": "10,000",
+      "description": "最受欢迎的选择",
+      "features": {
+        "points": "10,000 积分",
+        "permanent": "永久有效",
+        "priority": "优先支持"
+      },
+      "cta": "立即购买"
+    },
+    "premium": {
+      "name": "高级套餐",
+      "price": "$30",
+      "points": "100,000",
+      "description": "适合重度用户",
+      "features": {
+        "points": "100,000 积分",
+        "permanent": "永久有效",
+        "priority": "VIP支持"
+      },
+      "cta": "立即购买"
+    }
+  },
+  "faq": {
+    "title": "关于Get SaaS模版的常见问题",
+    "categories": {
+      "usage": "使用相关",
+      "pricing": "价格方案"
+    },
+    "usage": {
+      "howToStart": {
+        "question": "如何开始使用Get SaaS模版？",
+        "answer": "非常简单！下载模版后,按照文档说明配置环境变量（数据库、Stripe等）,然后运行npm install和npm run dev即可启动。模版包含完整的用户认证、支付系统和多语言支持,您只需专注于业务逻辑开发。"
+      },
+      "voiceQuality": {
+        "question": "模版的代码质量如何？",
+        "answer": "Get SaaS采用现代化技术栈,包括Next.js、TypeScript、Tailwind CSS等。代码遵循最佳实践,具有良好的类型安全、组件复用性和可维护性。所有功能都经过充分测试。"
+      },
+      "contentOwnership": {
+        "question": "购买模版后的使用权限如何？",
+        "answer": "购买Get SaaS后,您获得完整的源码使用权。可以自由修改、定制和商业化使用,无需支付额外费用。我们提供终身更新和技术支持。"
+      },
+      "dataPrivacy": {
+        "question": "模版是否包含数据安全保护？",
+        "answer": "是的,模版内置了完整的安全措施,包括用户认证、数据加密、CSRF保护等。遵循GDPR等数据保护法规,确保用户数据安全。"
+      }
+    },
+    "pricing": {
+      "pointsExpiry": {
+        "question": "购买后是否提供技术支持？",
+        "answer": "是的,专业版提供1年技术支持,企业版提供7×24小时技术支持。包括安装指导、功能咨询、问题解决等。开源版用户可通过社区获得支持。"
+      },
+      "upgradeAnytime": {
+        "question": "我可以随时升级SaaS模版方案吗？",
+        "answer": "当然可以！您可以随时升级到更高版本的SaaS模版。升级后立即获得新功能和更长的技术支持期,已购买的许可证继续有效。"
+      },
+      "enterpriseFeatures": {
+        "question": "企业版SaaS模版包括哪些特殊功能？",
+        "answer": "企业版提供定制化开发服务、私有化部署支持、7×24小时技术支持、团队培训与咨询,以及专属客户成功经理服务。完全根据您的业务需求量身打造解决方案。"
+      }
+    }
+  },
+  "footer": {
+    "description": "专为出海设计的现代化SaaS模版,集成完整的用户认证、支付系统、多语言支持等功能,助您快速启动全球化SaaS产品。",
+    "services": {
+      "title": "服务",
+      "features": "功能特性",
+      "pricing": "定价方案",
+      "blog": "技术博客"
+    },
+    "product": {
+      "title": "SaaS模版",
+      "template": "模版下载",
+      "features": "功能特性",
+      "pricing": "定价方案"
+    },
+    "company": {
+      "title": "公司",
+      "about": "关于我们",
+      "careers": "加入我们",
+      "blog": "博客"
+    },
+    "newsletter": {
+      "title": "订阅资讯",
+      "description": "获取最新的SaaS开发技术动态和模版更新",
+      "placeholder": "请输入您的邮箱地址",
+      "subscribe_button": "订阅",
+      "success": "订阅成功！",
+      "subscribe": {
+        "successMessage": "订阅成功！感谢您的订阅,我们会定期向您发送SaaS开发相关的最新资讯。",
+        "subscribeError": "订阅失败,请稍后重试",
+        "networkError": "网络错误,请稍后重试"
+      },
+      "unsubscribe": {
+        "title": "取消订阅邮件列表",
+        "description": "我们很遗憾看到您离开,但我们尊重您的选择",
+        "emailLabel": "邮箱地址",
+        "emailPlaceholder": "请输入您的邮箱地址",
+        "button": "取消订阅",
+        "processing": "处理中...",
+        "loadingText": "正在处理...",
+        "successMessage": "如果您改变主意,随时可以重新订阅我们的邮件列表。",
+        "backToHome": "返回首页",
+        "networkError": "网络错误,请稍后重试",
+        "unsubscribeError": "取消订阅失败"
+      }
+    },
+    "copyright": "Get SaaS. 版权所有."
+  },
+  "verify": {
+    "title": "邮箱验证",
+    "description": "验证您的邮箱地址以完成账户注册",
+    "meta_title": "邮箱验证",
+    "meta_description": "验证您的 Get SaaS 账户邮箱,完成账户激活",
+    "verifying": "正在验证您的邮箱...",
+    "success": "邮箱验证成功！",
+    "failed": "邮箱验证失败",
+    "token_missing": "验证令牌缺失",
+    "failed_retry": "验证失败,请稍后重试",
+    "please_wait": "请稍候,正在验证您的邮箱地址...",
+    "login_now": "立即登录",
+    "register_again": "重新注册",
+    "or": "或者",
+    "back_to_login": "返回登录"
+  },
+  "auth": {
+    "meta_title": "用户认证 - Get SaaS",
+    "signin_title": "登录",
+    "signin_description": "登录您的 Get SaaS 账户,开始使用现代化SaaS模版",
+    "signup_title": "注册",
+    "signup_description": "注册 Get SaaS 账户,开启SaaS开发之旅",
+    "error_title": "认证错误",
+    "error_description": "认证过程中遇到问题,请重试或联系技术支持",
+    "error_page_title": "登录失败",
+    "error_page_description": "认证过程中遇到问题",
+    "error_back_to_signin": "返回登录",
+    "error_back_to_home": "返回首页",
+    "error_contact_support": "如果问题持续存在,请联系",
+    "error_technical_support": "技术支持",
+    "errors": {
+      "Configuration": "服务器配置错误,请联系管理员",
+      "AccessDenied": "访问被拒绝,您可能没有权限访问此应用",
+      "Verification": "验证失败,请重试",
+      "OAuthSignin": "第三方登录失败,请重试",
+      "OAuthCallback": "第三方登录回调失败",
+      "OAuthCreateAccount": "无法创建账户,该邮箱可能已被使用",
+      "EmailCreateAccount": "无法创建账户,请检查邮箱地址",
+      "Callback": "回调错误,请重试",
+      "OAuthAccountNotLinked": "该第三方账户未与现有账户关联,请使用其他登录方式",
+      "EmailSignin": "邮箱登录失败,请检查邮箱地址",
+      "CredentialsSignin": "登录凭据无效,请检查邮箱和密码",
+      "SessionRequired": "需要登录才能访问此页面",
+      "OAuthTokenError": "获取授权令牌失败,请重新尝试登录",
+      "OAuthUserInfoError": "获取用户信息失败,请检查授权权限",
+      "default": "认证过程中发生未知错误,请重试"
+    },
+    "welcome_back": "欢迎回来",
+    "login_description": "登录您的 Get SaaS 账户",
+    "email": "邮箱地址",
+    "password": "密码",
+    "email_placeholder": "请输入您的邮箱",
+    "password_placeholder": "请输入您的密码",
+    "login": "登录",
+    "logging_in": "登录中...",
+    "login_error": "邮箱或密码错误",
+    "login_failed": "登录失败,请稍后重试",
+    "no_account": "还没有账户？",
+    "signup_now": "立即注册",
+    "forgot_password": "忘记密码？",
+    "create_account": "创建账户",
+    "name": "用户名",
+    "name_placeholder": "请输入您的用户名",
+    "password_signup_placeholder": "请输入密码（至少6个字符）",
+    "confirm_password": "确认密码",
+    "confirm_password_placeholder": "请再次输入密码",
+    "password_mismatch": "两次输入的密码不一致",
+    "password_too_short": "密码至少需要6个字符",
+    "register_failed": "注册失败",
+    "register_retry": "注册失败,请稍后重试",
+    "registering": "注册中...",
+    "register_success": "注册成功",
+    "has_account": "已有账户？",
+    "login_now": "立即登录",
+    "terms_agreement": "注册即表示您同意我们的",
+    "terms_of_service": "服务条款",
+    "and": "和",
+    "privacy_policy": "隐私政策",
+    "loginRequiredMessage": "请先登录后再使用音频总结功能。",
+    "loginNow": "立即登录"
+  },
+  "common": {
+    "cancel": "取消",
+    "confirm": "确认",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭",
+    "back": "返回",
+    "login": "立即登录"
+  },
+  "forgot_password": {
+    "title": "找回密码",
+    "description": "输入您的邮箱地址,我们将向您发送重置密码的链接",
+    "meta_title": "找回密码",
+    "meta_description": "找回您的 Get SaaS 账户密码,通过邮箱重置密码",
+    "email_label": "邮箱地址",
+    "email_placeholder": "请输入您的邮箱地址",
+    "send_reset_link": "发送重置链接",
+    "sending": "发送中...",
+    "success_message": "重置密码链接已发送到您的邮箱",
+    "check_email": "请检查您的邮箱并点击链接重置密码",
+    "back_to_login": "返回登录",
+    "email_required": "请输入邮箱地址",
+    "email_invalid": "请输入有效的邮箱地址",
+    "send_failed": "发送失败,请稍后重试",
+    "user_not_found": "该邮箱地址未注册",
+    "rate_limit": "请求过于频繁,请稍后再试"
+  },
+  "reset_password": {
+    "title": "重置密码",
+    "description": "请输入您的新密码",
+    "meta_title": "重置密码",
+    "meta_description": "重置您的 Get SaaS 账户密码,设置新的安全密码",
+    "password_label": "新密码",
+    "password_placeholder": "请输入新密码",
+    "confirm_password_label": "确认密码",
+    "confirm_password_placeholder": "请再次输入新密码",
+    "reset_password": "重置密码",
+    "resetting": "重置中...",
+    "success_message": "密码重置成功！",
+    "login_now": "立即登录",
+    "password_required": "请输入密码",
+    "password_min_length": "密码至少需要6个字符",
+    "password_mismatch": "两次输入的密码不一致",
+    "token_invalid": "重置链接无效或已过期",
+    "token_expired": "重置链接已过期,请重新申请",
+    "reset_failed": "重置失败,请稍后重试",
+    "back_to_forgot": "返回找回密码"
+  },
+  "profile": {
+    "title": "个人中心",
+    "description": "查看和管理您的账户信息",
+    "menu": "功能菜单",
+    "please_login": "请先登录后查看个人中心",
+    "login_required": "请先登录",
+    "no_name_set": "未设置用户名",
+    "not_set": "未设置",
+    "verified": "已验证",
+    "unverified": "未验证",
+    "resend_verification": "重发验证邮件",
+    "sending": "发送中...",
+    "verification_email_sent": "验证邮件已发送,请检查您的邮箱",
+    "verification_email_failed": "发送验证邮件失败,请稍后重试",
+    "loading": "加载中...",
+    "points": "许可权益",
+    "points_history": "权益记录",
+    "points_history_description": "查看您的许可权益和使用记录",
+    "no_points_history": "暂无权益记录",
+    "register_bonus": "注册权益",
+    "email_verify_bonus": "邮箱验证权益",
+    "daily_login_bonus": "每日登录权益",
+    "referral_bonus": "推荐好友权益",
+    "manual_operation": "管理员操作",
+    "points_operation": "权益操作",
+    "pagination": {
+      "page_info": "第 {current} 页,共 {total} 页",
+      "total_records": "共 {total} 条记录",
+      "previous": "上一页",
+      "next": "下一页"
+    },
+    "points_actions": {
+      "register": "注册权益",
+      "email_verify": "邮箱验证权益",
+      "daily_login": "每日登录权益",
+      "referral": "推荐好友权益",
+      "manual": "管理员操作",
+      "purchase": "购买许可",
+      "subscription_gift": "专业版许可权益",
+      "subscription_renewal_gift": "续订专业版许可权益",
+      "subscription_expired": "许可过期",
+      "unknown": "未知操作",
+      "pay_amount": "支付 {amount}"
+    },
+    "account_info": "账户信息",
+    "registration_date": "注册时间",
+    "last_login": "最后登录",
+    "account_status": "账户状态",
+    "email_verified": "邮箱已验证",
+    "account_secure": "账户安全",
+    "profile_complete": "资料完整",
+    "personal_info": "个人信息",
+    "account_settings": "账户设置",
+    "connected_accounts": "关联账户",
+    "security": "安全设置",
+    "name": "用户名",
+    "name_placeholder": "请输入您的用户名",
+    "email": "邮箱地址",
+    "email_unverified": "未验证",
+    "verify_email": "验证邮箱",
+    "avatar": "头像",
+    "change_avatar": "更换头像",
+    "current_password": "当前密码",
+    "current_password_placeholder": "请输入当前密码",
+    "new_password": "新密码",
+    "new_password_placeholder": "请输入新密码",
+    "confirm_new_password": "确认新密码",
+    "confirm_new_password_placeholder": "请再次输入新密码",
+    "change_password": "修改密码",
+    "save_changes": "保存更改",
+    "saving": "保存中...",
+    "saved": "已保存",
+    "cancel": "取消",
+    "connect": "绑定",
+    "connecting": "连接中...",
+    "disconnect": "解绑",
+    "connected": "已绑定",
+    "not_connected": "未绑定",
+    "github_account": "GitHub账户",
+    "google_account": "Google账户",
+    "delete_account": "删除账户",
+    "delete_account_warning": "删除账户将永久删除您的所有数据,此操作不可恢复！",
+    "delete_account_confirm": "我确认要删除我的账户",
+    "delete_account_button": "永久删除账户",
+    "member_since": "注册时间",
+    "success_message": "更新成功！",
+    "error_message": "更新失败,请稍后重试",
+    "password_changed": "密码修改成功！",
+    "password_change_failed": "密码修改失败",
+    "account_connected": "账户绑定成功！",
+    "account_disconnected": "账户解绑成功！",
+    "account_connection_failed": "账户绑定失败",
+    "email_verification_sent": "验证邮件已发送",
+    "name_required": "请输入用户名",
+    "current_password_required": "请输入当前密码",
+    "new_password_required": "请输入新密码",
+    "password_min_length": "密码至少需要6个字符",
+    "password_mismatch": "两次输入的密码不一致",
+    "current_password_incorrect": "当前密码不正确",
+    "subscription_info": "许可信息",
+    "subscription_info_description": "查看和管理您的许可计划",
+    "subscription_status": "许可状态",
+    "subscription_active": "已激活",
+    "subscription_cancelled": "已取消",
+    "subscription_past_due": "逾期未付",
+    "subscription_free": "免费用户",
+    "subscription_expires": "到期时间",
+    "subscription_expiring_soon": "即将到期",
+    "subscription_expired": "已过期",
+    "plan_free": "免费计划",
+    "plan_pro": "专业版",
+    "plan_enterprise": "企业版",
+    "plan_free_description": "基础模版,适合个人开发者",
+    "plan_pro_description": "完整功能,适合专业开发",
+    "plan_enterprise_description": "定制服务,适合企业团队",
+    "manage_subscription": "管理许可",
+    "upgrade_to_pro": "升级到专业版",
+    "upgrade_benefits_title": "升级获得更多权益",
+    "upgrade_benefits_1": "完整SaaS模版源码",
+    "upgrade_benefits_2": "优先技术支持",
+    "upgrade_benefits_3": "高级功能组件",
+    "upgrade_benefits_4": "定制化开发服务",
+    "points_purchase": "许可购买",
+    "points_purchase_description": "购买许可以获得SaaS模版完整权益",
+    "points_package_starter": "入门套餐",
+    "points_package_popular": "热门套餐",
+    "points_package_premium": "高级套餐",
+    "points_usage_title": "许可权益",
+    "points_usage_ai_service": "SaaS模版完整源码",
+    "points_usage_premium_features": "高级功能组件",
+    "points_usage_priority_support": "优先技术支持",
+    "purchase_now": "立即购买",
+    "processing_payment": "处理中...",
+    "payment_success": "支付成功",
+    "payment_failed": "支付失败",
+    "order_details": "订单详情",
+    "complete_payment": "完成支付",
+    "cancel_payment": "取消",
+    "card_info": "银行卡信息",
+    "pay_amount": "支付",
+    "purchase_success": "购买成功！",
+    "points_added": "积分已添加",
+    "current_points": "当前积分",
+    "view_pricing": "查看定价",
+    "purchased_points_label": "购买积分（永不过期）",
+    "gifted_points_label": "赠送积分（订阅到期清零）",
+    "subscription_gift_notice": "您当前订阅专业版,已获得10,000赠送积分",
+    "purchased_points": "购买积分",
+    "purchased_points_description": "通过支付购买的积分,永不过期,可长期使用",
+    "gifted_points": "赠送积分",
+    "gifted_points_description": "订阅专业版赠送的积分,订阅到期时将被清零",
+    "usage_priority": "使用优先级",
+    "usage_priority_description": "系统会优先使用赠送积分,再使用购买积分",
+    "recommended": "推荐",
+    "processing": "处理中...",
+    "payment_history": "支付记录",
+    "payment_history_description": "查看所有支付记录和交易详情",
+    "payment_history_details": {
+      "title": "支付记录",
+      "stats": {
+        "title": "支付统计",
+        "total_payments": "总支付次数",
+        "total_amount": "总支付金额",
+        "total_points_purchased": "总购买积分",
+        "successful_payments": "成功支付次数"
+      },
+      "payment_types": {
+        "subscription": "订阅",
+        "points_purchase": "积分购买",
+        "other": "其他"
+      },
+      "payment_statuses": {
+        "succeeded": "成功",
+        "failed": "失败",
+        "pending": "处理中",
+        "refunded": "已退款",
+        "cancelled": "已取消"
+      },
+      "table": {
+        "type": "类型",
+        "product": "产品",
+        "amount": "金额",
+        "points": "积分",
+        "status": "状态",
+        "time": "时间"
+      },
+      "filters": {
+        "type_placeholder": "筛选类型",
+        "status_placeholder": "筛选状态",
+        "all_types": "所有类型",
+        "all_statuses": "所有状态"
+      },
+      "empty_state": {
+        "title": "暂无支付记录"
+      },
+      "errors": {
+        "fetch_failed": "获取支付记录失败"
+      }
+    }
+  },
+  "dashboard": {
+    "payment_success": {
+      "title": "购买成功！",
+      "subtitle": "欢迎使用Get SaaS专业版",
+      "processing_title": "处理支付结果",
+      "processing_description": "请稍候,我们正在确认您的购买状态...",
+      "verifying_title": "验证购买状态",
+      "verifying_description": "正在确认您的专业版购买...",
+      "success_toast": "🎉 专业版购买成功！您已获得完整的SaaS模版和技术支持",
+      "no_session_toast": "💡 您已到达购买成功页面,请使用下方按钮导航"
+    },
+    "subscription_info": {
+      "title": "专业版许可",
+      "status_label": "许可状态：",
+      "status_active": "已激活",
+      "status_processing": "处理中",
+      "plan_label": "许可类型：",
+      "plan_pro": "专业版",
+      "expires_label": "支持到期："
+    },
+    "points_reward": {
+      "title": "购买权益",
+      "total_points": "总权益",
+      "purchased_points": "购买权益",
+      "gifted_points": "赠送权益",
+      "gift_notice": "🎁 您已获得专业版完整权益,包括源码、文档和技术支持！"
+    },
+    "actions": {
+      "view_profile": "查看个人中心",
+      "back_home": "返回首页"
+    },
+    "loading": "加载中...",
+    "error": {
+      "fetch_failed": "获取订阅信息失败,请刷新页面重试",
+      "manage_subscription_failed": "无法打开订阅管理页面,请稍后重试"
+    }
+  },
+  "admin": {
+    "newsletter": {
+      "meta_title": "邮件订阅统计 - Get SaaS",
+      "meta_description": "查看和管理邮件订阅统计数据,包括订阅用户数量、语言分布等信息。",
+      "title": "邮件订阅统计",
+      "stats": {
+        "total_subscriptions": "总订阅数",
+        "active_subscribers": "活跃订阅用户",
+        "chinese_subscriptions": "中文订阅",
+        "chinese_users": "中文用户",
+        "english_subscriptions": "英文订阅",
+        "english_users": "英文用户",
+        "total_registrations": "总注册数",
+        "including_unsubscribed": "包括已取消订阅"
+      },
+      "subscription_list": {
+        "title": "订阅列表",
+        "description": "所有邮件订阅用户的详细信息",
+        "active_tab": "活跃订阅",
+        "inactive_tab": "已取消订阅",
+        "no_data": "暂无数据",
+        "table": {
+          "email": "邮箱地址",
+          "language": "语言",
+          "status": "状态",
+          "subscribed_at": "订阅时间",
+          "unsubscribed_at": "取消订阅时间",
+          "chinese": "中文",
+          "english": "English",
+          "active": "活跃",
+          "cancelled": "已取消"
+        }
+      },
+      "actions": {
+        "retry": "重试",
+        "refresh": "刷新"
+      },
+      "error": {
+        "fetch_stats_failed": "获取统计数据失败",
+        "fetch_subscriptions_failed": "获取订阅列表失败"
+      }
+    }
+  },
+  "legal": {
+    "title": "法律条款",
+    "terms": "服务条款",
+    "privacy": "隐私政策",
+    "cookies": "Cookie政策"
+  },
+  "unauthorized": {
+    "title": "访问被拒绝",
+    "description": "您没有权限访问此页面。此页面仅限管理员访问。",
+    "errorMessage": "如果您认为这是一个错误,请联系系统管理员。",
+    "backToHome": "返回首页",
+    "signInAgain": "重新登录"
+  },
+  "testimonials": {
+    "title": "用户评价",
+    "description": "加入数千名已经在使用 Get SaaS 快速构建和部署SaaS产品的开发者和创业者"
+  },
+  "blogPage": {
+    "title": "Get SaaS 博客",
+    "subtitle": "探索SaaS开发的最新动态和技术分享",
+    "contactPost": {
+      "badge": "最新",
+      "date": "2024年12月",
+      "author": "Get SaaS Team",
+      "title": "联系我们 - 让我们一起探索SaaS开发的无限可能",
+      "description": "我们很高兴与您建立联系！无论您是想了解我们的SaaS模版服务,还是有任何技术问题,我们都随时准备为您提供帮助。",
+      "contactMethods": {
+        "title": "🤝 联系方式",
+        "twitter": {
+          "title": "推特 Twitter",
+          "description": "关注我们获取最新动态",
+          "handle": "@zyailive"
+        },
+        "email": {
+          "title": "邮箱 Email",
+          "description": "商务合作与技术支持",
+          "address": "app@itusi.cn"
+        },
+        "wechat": {
+          "title": "微信 WeChat",
+          "description": "添加微信获取专属服务",
+          "id": "zyailive01"
+        }
+      },
+      "services": {
+        "title": "🎯 我们能为您做什么？",
+        "podcast": "完整的SaaS模版源码和技术文档",
+        "voiceover": "现代化的用户认证和支付系统集成",
+        "video": "多语言支持和SEO优化解决方案",
+        "support": "7×24小时专业技术支持",
+        "custom": "根据您的需求定制专属SaaS功能"
+      },
+      "cta": {
+        "title": "准备开始您的SaaS开发之旅了吗？",
+        "startNow": "立即开始",
+        "contactUs": "联系我们"
+      }
+    },
+    "otherPosts": {
+      "title": "SaaS开发技术分享",
+      "description": "探索SaaS模版的最新技术动态和深度解析",
+      "post1": {
+        "category": "技术解析",
+        "date": "2025年7月",
+        "title": "Get SaaS可以做哪些网站？",
+        "excerpt": "深入了解Get SaaS模版的应用场景,从电商平台到企业管理系统,再到在线教育平台的完整解决方案。"
+      },
+      "post2": {
+        "category": "产品介绍",
+        "date": "2025年7月",
+        "title": "Get SaaS有什么功能？",
+        "excerpt": "深入了解Get SaaS模版提供的核心功能：用户认证、支付系统、多语言支持、SEO优化等完整解决方案。"
+      },
+      "post3": {
+        "category": "行业洞察",
+        "date": "2025年7月",
+        "title": "什么是SaaS？",
+        "excerpt": "深入了解SaaS的定义、商业模式和技术架构,以及如何快速构建现代化SaaS产品。"
+      },
+      "readMore": "阅读更多"
+    }
+  }
+}
