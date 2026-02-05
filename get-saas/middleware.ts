@@ -5,8 +5,8 @@ export default createMiddleware({
   locales: ['en', 'zh'],
   // 默认语言
   defaultLocale: 'en',
-  // 在路径中总是显示语言前缀
-  localePrefix: 'always'
+  // 默认语言不显示前缀，其他语言显示前缀
+  localePrefix: 'as-needed'
 })
 
 export const config = {
